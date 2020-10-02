@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <link rel="icon" type="image/png" href="./img/icon.png" />
+    <script type="text/javascript" src="./js/script.js"></script>
+    <title>Parcial 2 - Hilda Elías</title>
+  </head>
+<body> <!--Seccciones general-->
+    <div class="grid-container-general">
+      <div class="grid-item-contenedor"></div>
+      <div class="grid-item-contenedor cntformulario">
+        <form action="" id="notas" name="notas">
+          <h3>Promedio de unidad</h3>  <!--Seccciones del nombre-->
+          <h5>Nombre:</h5>
+          <input
+            type="text"
+            class="txtNombre"
+            id="nombre"
+            name="=nombre"
+            value=" "
+            required
+          />
+          <!--Seccciones del formulario-->
+          <div class="grid-container-formulario">
+            <div class="grid-item-formulario"></div>
+            <div class="grid-item-formulario">
+              <h5>Taller 1</h5> <!--Secccion taller 1-->
+            </div>
+            <div class="grid-item-formulario">
+              <input
+                type="text"
+                class="txtNotas"
+                id="taller1"
+                name="taller1"
+                value="0"
+                required
+              />
+            </div>
+            <div class="grid-item-formulario"></div>
+            <!---->
+            <div class="grid-item-formulario"></div>
+            <div class="grid-item-formulario">
+              <h5>Taller 2</h5> <!--Secccion taller 2-->
+            </div>
+            <div class="grid-item-formulario">
+              <input
+                type="text"
+                class="txtNotas"
+                id="taller2"
+                name="taller2"
+                value="0"
+                required
+              />
+            </div>
+            <div class="grid-item-formulario"></div>
+            <!---->
+            <div class="grid-item-formulario"></div>
+            <div class="grid-item-formulario">
+              <h5>Parcial</h5> <!--Secccion Nota del parcial-->
+            </div>
+            <div class="grid-item-formulario">
+              <input
+                type="text"
+                class="txtNotas"
+                id="parcial"
+                name="parcial"
+                value="0"
+                required
+              />
+            </div>
+            <div class="grid-item-formulario"></div>
+          </div>
+          <div class="grid-3c">
+            <div class="3c-item"></div>
+            <div class="3c-item">  <!-- Boton de en enviar-->
+              <input
+                type="button"
+                value="Enviar"
+                id="btnEnviar"
+                onclick="enviarNotas()"
+              />
+            </div>
+            <div class="3c-item"></div>
+          </div>
+        </form>
+      </div>
+
+      <div class="grid-item-contenedor"> <!--imagen costado -->
+        <img src="./img/imagen.png" alt="" class="imgBanner" />
+      </div>
+      <div class="grid-item-contenedor"></div>
+    </div>
+  </body>
+</html>
